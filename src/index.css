@@ -6,3 +6,18 @@
   --green: #9df6c6;
   --bg: #c6e9ff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
