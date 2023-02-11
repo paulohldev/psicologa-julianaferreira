@@ -15,6 +15,7 @@ const Title = styled.h1`
       : '2.625rem' && role
       ? '1.25rem'
       : '2.625rem'};
+  padding-top: ${({ paddingTop }) => (paddingTop ? paddingTop + 'px' : 0)};
 `;
 
 const Titulo = ({ children, ...props }) => {
