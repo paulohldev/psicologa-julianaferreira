@@ -1,13 +1,11 @@
 import Header from './components/header/Header';
-import Paragrafo from './components/Paragrafo';
-import Titulo from './components/Titulo';
+import Introducao from './components/introducao/Introducao';
 
 function App() {
   return (
     <div>
       <Header />
-      <Titulo>Titulo</Titulo>
-      <Paragrafo>Paragrafo</Paragrafo>
+      <Introducao />
     </div>
   );
 }

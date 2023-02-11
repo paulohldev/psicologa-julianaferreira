@@ -36,7 +36,7 @@ const Link = styled.a`
     content: '';
     display: block;
     background-color: var(--black);
-    height: 4px;
+    height: 2px;
     width: 0px;
     transition: 0.3s all;
     position: relative;
