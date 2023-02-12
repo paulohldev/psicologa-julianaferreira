@@ -47,7 +47,7 @@ const Form = styled.form`
 
 const Contato = () => {
   return (
-    <section style={{ paddingBottom: '200px' }}>
+    <section style={{ paddingBottom: '90px' }}>
       <Titulo center paddingTop={90}>
         Entre em Contato
       </Titulo>

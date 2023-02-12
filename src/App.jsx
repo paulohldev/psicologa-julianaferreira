@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Introducao from './components/introducao/Introducao';
 import Sobre from './components/sobre/Sobre';
 import Contato from './components/contato/Contato';
+import Rodape from './components/rodape/Rodape';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Sobre />
       <Depoimentos />
       <Contato />
+      <Rodape />
     </div>
   );
 }
