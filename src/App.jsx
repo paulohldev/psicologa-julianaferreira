@@ -1,4 +1,4 @@
-import Depoimento from './components/depoimentos/Depoimento';
+import Depoimentos from './components/depoimentos/Depoimentos';
 import Header from './components/header/Header';
 import Introducao from './components/introducao/Introducao';
 import Sobre from './components/sobre/Sobre';
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Introducao />
       <Sobre />
-      <Depoimento />
+      <Depoimentos />
     </div>
   );
 }

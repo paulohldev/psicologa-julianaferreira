@@ -9,6 +9,7 @@ const Paragraph = styled.p`
   line-height: 1.5;
   margin-top: ${({ top }) => (top ? top + 'px' : 0)};
   font-size: ${({ fontSize }) => (fontSize ? fontSize + 'px' : '1rem')};
+  text-align: ${({ center }) => (center ? 'center' : 'left')};
 `;
 
 const Paragrafo = ({ children, ...props }) => {
