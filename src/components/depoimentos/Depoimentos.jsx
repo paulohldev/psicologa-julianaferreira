@@ -5,7 +5,7 @@ import Depoimento from './Depoimento';
 
 const BgDepoimento = styled.section`
   background-color: var(--blue);
-  padding-bottom: 200px;
+  padding-bottom: 90px;
 `;
 
 const DepoimentoContainer = styled.div`

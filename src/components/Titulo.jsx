@@ -16,6 +16,7 @@ const Title = styled.h1`
       ? '1.25rem'
       : '2.625rem'};
   padding-top: ${({ paddingTop }) => (paddingTop ? paddingTop + 'px' : 0)};
+  text-align: ${({ center }) => (center ? 'center' : 'left')};
 `;
 
 const Titulo = ({ children, ...props }) => {

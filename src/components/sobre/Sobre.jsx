@@ -32,9 +32,7 @@ const Sobre = () => {
           online com Juliana Ferreira pode ser a escolha certa para você.
         </Paragrafo>
         <Galeria />
-        <Botao>
-          <Paragrafo>CONTATAR PSICÓLOGA</Paragrafo>
-        </Botao>
+        <Botao>CONTATAR PSICÓLOGA</Botao>
       </div>
     </Section>
   );
