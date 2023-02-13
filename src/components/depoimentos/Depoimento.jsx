@@ -67,7 +67,7 @@ const Depoimento = () => {
 
     setTimeout(() => {
       setIndex((index + 1) % slideLength);
-    }, 1000);
+    }, 3000);
   };
 
   const changeDot = () => {

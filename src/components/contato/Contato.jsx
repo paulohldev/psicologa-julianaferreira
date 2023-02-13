@@ -9,6 +9,8 @@ const Input = styled.input`
   border: 1px solid var(--black);
   &:focus {
     outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 10px var(--blue);
   }
   max-width: 620px;
   min-width: 300px;
@@ -22,6 +24,8 @@ const TextArea = styled.textarea`
   border: 1px solid var(--black);
   &:focus {
     outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 10px var(--blue);
   }
   max-width: 620px;
   min-width: 300px;
