@@ -26,7 +26,8 @@ const DivFooter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 `;
 
 const Rodape = () => {

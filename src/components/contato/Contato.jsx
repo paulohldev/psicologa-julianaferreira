@@ -13,7 +13,8 @@ const Input = styled.input`
     box-shadow: 0 0 10px var(--blue);
   }
   max-width: 620px;
-  min-width: 300px;
+  /* min-width: 300px; */
+  /* width: 100%; */
   width: 100%;
   font-family: 'Barlow', sans-serif;
 `;
@@ -51,19 +52,24 @@ const Form = styled.form`
 
 const Contato = () => {
   return (
-    <section style={{ paddingBottom: '90px' }}>
+    <section className="container" style={{ paddingBottom: '90px' }}>
       <Titulo center paddingTop={90}>
         Entre em Contato
       </Titulo>
       <Form>
         <Label htmlFor="nome">NOME</Label>
         <Input type="text" name="nome" id="nome" />
-        <div style={{ display: 'flex', gap: '20px' }}>
-          <div>
+        <div
+          style={{
+            display: 'flex',
+            gap: '20px',
+          }}
+        >
+          <div style={{ flexGrow: '1' }}>
             <Label htmlFor="email">EMAIL</Label>
             <Input type="text" name="email" id="email" />
           </div>
-          <div>
+          <div style={{ flexGrow: '1' }}>
             <Label htmlFor="celular">NÚMERO DE CELULAR</Label>
             <Input type="text" name="celular" id="celular" />
           </div>
