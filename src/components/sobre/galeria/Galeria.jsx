@@ -9,7 +9,7 @@ import Titulo from '../../Titulo';
 const Image = styled.img`
   max-width: 100%;
   display: block;
-  width: 460px;
+  width: 100%;
   object-fit: cover;
   height: 340px;
   border-radius: 4px;
@@ -36,6 +36,9 @@ const GradientImage = styled.div`
 const Article = styled.article`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 790px) {
+    grid-template-columns: 1fr;
+  }
   gap: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -52,6 +55,10 @@ const Link = styled.a`
   left: 20px;
   color: var(--white);
   width: ${({ width }) => (width ? width + 'px' : 'auto')};
+  /* font-size: 12px; */
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+  }
   z-index: 2;
 `;
 
@@ -62,7 +69,7 @@ const Galeria = () => {
         <GradientImage>
           <Image src={photo1} alt="Foto 1" />
           <Titulo subtitle>
-            <Link width={308} href="#">
+            <Link width={330} href="#">
               Terapia Cognitivo Comportamental
             </Link>
           </Titulo>
@@ -72,7 +79,7 @@ const Galeria = () => {
         <GradientImage>
           <Image src={photo2} alt="Foto 2" />
           <Titulo subtitle>
-            <Link width={284} href="#">
+            <Link width={300} href="#">
               Terapia Centrada na Pessoa
             </Link>
           </Titulo>

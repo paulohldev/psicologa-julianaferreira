@@ -35,7 +35,7 @@ const Dot = styled.div`
 `;
 
 const Slide = styled.div`
-  width: 540px;
+  width: 100%;
   overflow-x: hidden;
 `;
 

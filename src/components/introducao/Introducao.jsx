@@ -13,6 +13,10 @@ const Section = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 766px) {
+    flex-direction: column;
+    padding-top: 40px;
+  }
 `;
 
 const Introducao = () => {

@@ -20,6 +20,9 @@ const Lista = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  @media (max-width: 790px) {
+    margin-top: 40px;
+  }
 `;
 
 const DivFooter = styled.div`
@@ -28,6 +31,9 @@ const DivFooter = styled.div`
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  @media (max-width: 790px) {
+    flex-direction: column;
+  }
 `;
 
 const Rodape = () => {
