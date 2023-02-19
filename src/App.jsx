@@ -1,3 +1,4 @@
+import React from 'react';
 import Depoimentos from './components/depoimentos/Depoimentos';
 import Header from './components/header/Header';
 import Introducao from './components/introducao/Introducao';
@@ -7,14 +8,14 @@ import Rodape from './components/rodape/Rodape';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Introducao />
       <Sobre />
       <Depoimentos />
       <Contato />
       <Rodape />
-    </div>
+    </>
   );
 }
 

@@ -29,7 +29,7 @@ const TextArea = styled.textarea`
     box-shadow: 0 0 10px var(--blue);
   }
   max-width: 620px;
-  min-width: 300px;
+  /* min-width: 300px; */
   width: 100%;
   font-family: 'Barlow', sans-serif;
   height: 350px;
@@ -50,6 +50,15 @@ const Form = styled.form`
   margin: 30px auto 0 auto;
 `;
 
+const Divisor = styled.div`
+  display: flex;
+  gap: 20px;
+  @media (max-width: 440px) {
+    flex-direction: column;
+    gap: 0;
+  }
+`;
+
 const Contato = () => {
   return (
     <section className="container" style={{ paddingBottom: '90px' }}>
@@ -59,12 +68,7 @@ const Contato = () => {
       <Form>
         <Label htmlFor="nome">NOME</Label>
         <Input type="text" name="nome" id="nome" />
-        <div
-          style={{
-            display: 'flex',
-            gap: '20px',
-          }}
-        >
+        <Divisor>
           <div style={{ flexGrow: '1' }}>
             <Label htmlFor="email">EMAIL</Label>
             <Input type="text" name="email" id="email" />
@@ -73,7 +77,7 @@ const Contato = () => {
             <Label htmlFor="celular">NÚMERO DE CELULAR</Label>
             <Input type="text" name="celular" id="celular" />
           </div>
-        </div>
+        </Divisor>
         <div>
           <Label htmlFor="descricao">ENVIE SUA MENSAGEM</Label>
           <TextArea

@@ -117,7 +117,7 @@ const Header = () => {
           ></ButtonMobile>
           <ListMenuMobile menuMobile={menuMobile}>
             <List>
-              <Link bold href="#">
+              <Link bold href="#sobre">
                 Sobre
               </Link>
             </List>
